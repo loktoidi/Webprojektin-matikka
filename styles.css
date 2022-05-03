@@ -1,0 +1,320 @@
+/*Sauli Holappa
+Saulin Matikkasivu*/
+
+/* perus CSS asetukset alkaa*/
+
+body {
+    font-family:Curlz MT;
+    line-height: 1.8;
+    color:chartreuse;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.border {
+    border: 6px solid #0e66be!important;
+    padding: 2px;
+    border-style: groove;
+   }
+
+.container {
+    max-height: flex;
+}
+
+p {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color:hsl(204, 85%, 34%);
+    font-family: Monotype Corsiva;
+    font-size: 35px;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    text-align: center;
+}
+a {
+    font-weight: 700;
+    transition: all 0.5s ease; /*tämä aika vaikuttaa kuinka linkin väri muuttuu*/
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+span {
+    padding-left: 2rem;
+}
+
+
+/* perus CSS asetukset loppuu*/
+
+/* Navbar CSS asetukset alkaa*/
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin-left: 3px;
+    margin-right: 3px;
+    max-width: 100%;
+    
+}
+
+
+
+.logo-text {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.navbar .nav-link {
+    
+    font-family:Curlz MT;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:hsl(306, 72%, 66%);
+}
+
+
+
+li a:hover {
+    background-color: rgb(34, 138, 105, 0.7);
+    font-weight: bolder;
+    max-width: 100px 
+    
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(67, 235, 33);
+    border-color: rgb(5, 67, 12);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color:chartreuse;   
+
+}
+
+
+.navbar-dark .navbar-brand {
+    color:chartreuse;
+    
+}
+
+
+/* Navbar CSS asetukset loppuu*/
+
+
+
+/*matikkasivun pohja alkaa*/
+
+.matikka {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+#matikkasivu {
+    background-color: rgb(220, 159, 79, 0.7);
+    min-height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: top;
+    max-width: 100%;
+}
+
+/*matikkasivun pohja loppuu*/
+
+/*matikka nappulat alkaa*/
+#startBtn {
+    margin-left: 0.8em;
+    background-color: rgb(40, 145, 220);
+    font-size: 4em;
+    font-family: concentrate;
+    color:hsl(220, 90%, 40%);
+    text-shadow: -1px 0px rgb(249, 245, 245), 0 1px rgb(247, 245, 245), 1px 0 rgb(250, 246, 246), 0 -1px rgb(250, 247, 247);
+}
+
+#startBtn:hover {
+    color:rgb(40, 145, 220);
+    background-color: hsl(204, 85%, 34%);
+}
+
+h1, h2 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 3px;
+    font-family: Monotype Corsiva;
+    font-size: 1em;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    line-height: 90px;
+}
+
+h3{ /*valitse vastaus*/
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 3px;
+    font-family: Monotype Corsiva;
+    font-size: 3em;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    line-height: 90px;
+    
+}
+
+   
+#btn1 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: blue;
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+#btn1:hover {
+    background-color: rgb(66, 209, 228);
+}
+
+#btn2 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: rgb(201, 36, 77);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+}
+
+#btn2:hover {
+    background-color: rgb(227, 90, 188);
+}
+
+#btn3 {
+    
+    margin-left: 0.5em;
+    margin:0.25em;
+    background-color: rgb(15, 115, 40);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn3:hover {
+    background-color: rgb(27, 222, 144);
+}
+
+#btn4 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: rgb(145, 143, 28);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn4:hover {
+    background-color: rgb(106, 227, 35);
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+/*kertolasku*/
+.big {
+    margin-left: 0.8em;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: Monotype Corsiva;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+      
+}
+
+#operation.big {
+    
+    font-family:Monotype Corsiva;
+    color:hsl(204, 85%, 34%);    
+    padding: 0.25;
+    font-size: 5em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    
+}
+
+.timer {
+    margin-left: 0.8em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family:Monotype Corsiva;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    color:hsl(204, 85%, 34%);
+    padding: 0.5em;
+    font-size: 3.5em
+    
+    
+}
+
+.score {
+    margin-left: 0.8em;
+    font-size: 5em;
+    text-align: center;
+    font-family:Curlz MT;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    color:hsl(204, 85%, 34%);
+    padding: 0.25;
+    font-size: 3.5em
+        
+}
+
+#currentScore.score {
+    font-size: 4em;
+    
+}
+
+.btn1 .btn2 .btn3 .btn4 {
+    font-size: 5em;
+    
+
+}
+
+/*matikka nappulat loppuu*/
+
+/*footer alkaa*/
+
+
+
+/*footer loppuu*/
