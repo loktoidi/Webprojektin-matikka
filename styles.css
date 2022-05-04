@@ -59,6 +59,7 @@ section {
     margin-left: 3px;
     margin-right: 3px;
     max-width: 100%;
+    display:flexbox;
     
 }
 
